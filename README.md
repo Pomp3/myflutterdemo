@@ -11,3 +11,4 @@ __sklearn__ is a python machine learning library comprised of various
 machine learning algorithms. See [here](http://scikit-learn.org/stable/) for detail.
 
 ### Why command line?
+Although you can write a python script every time you like to use functionalities
