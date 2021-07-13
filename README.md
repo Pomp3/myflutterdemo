@@ -13,3 +13,4 @@ machine learning algorithms. See [here](http://scikit-learn.org/stable/) for det
 ### Why command line?
 Although you can write a python script every time you like to use functionalities
 provided by sklearn, it is still annoying to write duplicated script again and again.
+It is both error prone and inefficient, especially when you want to perform comparisons
