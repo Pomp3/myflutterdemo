@@ -17,3 +17,5 @@ It is both error prone and inefficient, especially when you want to perform comp
 on different learning algorithms.
 
 This off-the-shell command line tool is here to make your life easier
+
+Prerequisite
