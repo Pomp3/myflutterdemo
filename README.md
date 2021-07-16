@@ -20,3 +20,4 @@ This off-the-shell command line tool is here to make your life easier
 
 Prerequisite
 ------------
+Of course You have to install sklearn :) , move steps to the [official website of sklearn](http://scikit-learn.org/stable/)
