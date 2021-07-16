@@ -21,3 +21,6 @@ This off-the-shell command line tool is here to make your life easier
 Prerequisite
 ------------
 Of course You have to install sklearn :) , move steps to the [official website of sklearn](http://scikit-learn.org/stable/)
+
+This script is only tested on version 0.14.1.
+For lower versions, something like ```AdaBoostClassifier``` will not work.
