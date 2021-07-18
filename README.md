@@ -25,3 +25,5 @@ Of course You have to install sklearn :) , move steps to the [official website o
 This script is only tested on version 0.14.1.
 For lower versions, something like ```AdaBoostClassifier``` will not work.
 
+
+Features
