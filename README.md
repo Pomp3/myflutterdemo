@@ -30,3 +30,4 @@ Features
 --------
 - only ONE script, you can copy and paste it as you like.
 - only supervised learning tasks are supported currently
+- parameters(limited, but sufficient) of model can be passed via command-line,
