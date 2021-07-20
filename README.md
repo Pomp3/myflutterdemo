@@ -33,3 +33,4 @@ Features
 - parameters(limited, but sufficient) of model can be passed via command-line,
 	you can even make the model utilize mult-cores.
 - automatically use sparse matrix if model supports
+- libsvm format input
