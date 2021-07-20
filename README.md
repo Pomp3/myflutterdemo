@@ -34,3 +34,5 @@ Features
 	you can even make the model utilize mult-cores.
 - automatically use sparse matrix if model supports
 - libsvm format input
+
+For detailed information: ```./learner.py -h```
