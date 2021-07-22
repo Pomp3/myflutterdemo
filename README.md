@@ -38,3 +38,4 @@ Features
 For detailed information: ```./learner.py -h```
 
 Todo (let's make it a better script)
+------------------------------------
