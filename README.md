@@ -40,3 +40,4 @@ For detailed information: ```./learner.py -h```
 Todo (let's make it a better script)
 ------------------------------------
 - compatibility between different versions of sklearn
+- support for unsupervised learning tasks
