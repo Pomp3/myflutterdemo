@@ -43,3 +43,4 @@ Todo (let's make it a better script)
 - support for unsupervised learning tasks
 - data visualization for unsupervised learning tasks
 - more metrics
+- more input file type (like csv, or just space separated columns,
