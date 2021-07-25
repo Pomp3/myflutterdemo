@@ -42,3 +42,4 @@ Todo (let's make it a better script)
 - compatibility between different versions of sklearn
 - support for unsupervised learning tasks
 - data visualization for unsupervised learning tasks
+- more metrics
