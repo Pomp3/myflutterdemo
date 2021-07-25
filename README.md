@@ -44,3 +44,4 @@ Todo (let's make it a better script)
 - data visualization for unsupervised learning tasks
 - more metrics
 - more input file type (like csv, or just space separated columns,
+better if there's automatically detection).
