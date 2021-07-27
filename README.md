@@ -49,3 +49,4 @@ better if there's automatically detection).
 Known Issue
 -----------
 Due to internal data structures transition, this script is not
+memory-efficient. It may eat up more memory that you expected.
