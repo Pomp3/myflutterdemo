@@ -58,3 +58,4 @@ Xinyu Zhou <zxytim[at]gmail[dot]com>
 
 License
 -------
+GPL v3
