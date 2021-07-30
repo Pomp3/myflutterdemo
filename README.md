@@ -62,3 +62,4 @@ GPL v3
 
 Help
 ----
+output of ```./learner.py -h```
