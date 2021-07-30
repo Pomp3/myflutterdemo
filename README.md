@@ -67,3 +67,4 @@ output of ```./learner.py -h```
 	usage: learner.py [-h] -t {fit,predict,fitpredict,f,p,fp,doc}
 					  [--training-file TRAINING_FILE] [--test-file TEST_FILE]
 					  [--model-input MODEL_INPUT] [--model-output MODEL_OUTPUT]
+					  [-m {logisticr,knnc,mnb,perceptron,lsvc,lasso,abc,ridge,abr,elasticnet,bnb,knnr,sgdc,etr,rfr,nusvr,gbc,dtc,linearr,svc,rfc,etc,gbr,dtr,svr}]
