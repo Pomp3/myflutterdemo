@@ -69,3 +69,4 @@ output of ```./learner.py -h```
 					  [--model-input MODEL_INPUT] [--model-output MODEL_OUTPUT]
 					  [-m {logisticr,knnc,mnb,perceptron,lsvc,lasso,abc,ridge,abr,elasticnet,bnb,knnr,sgdc,etr,rfr,nusvr,gbc,dtc,linearr,svc,rfc,etc,gbr,dtr,svr}]
 					  [--prediction-file PREDICTION_FILE]
+					  [--model-format {pickle,joblib}] [--show-metrics]
