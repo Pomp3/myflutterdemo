@@ -72,3 +72,5 @@ output of ```./learner.py -h```
 					  [--model-format {pickle,joblib}] [--show-metrics]
 					  [-v [VERBOSE]]
 					  [model_options [model_options ...]]
+
+	command line wrapper for some models in scikit-learn
