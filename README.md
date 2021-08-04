@@ -76,3 +76,4 @@ output of ```./learner.py -h```
 	command line wrapper for some models in scikit-learn
 
 	positional arguments:
+	  model_options         additional paramters for specific model of format
