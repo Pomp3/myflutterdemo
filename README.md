@@ -77,3 +77,4 @@ output of ```./learner.py -h```
 
 	positional arguments:
 	  model_options         additional paramters for specific model of format
+							"name:type:val", effective only when training is
