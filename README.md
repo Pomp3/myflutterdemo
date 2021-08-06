@@ -80,3 +80,5 @@ output of ```./learner.py -h```
 							"name:type:val", effective only when training is
 							needed. type is either int, float or str, which
 							abbreviates as i, f and s.
+
+	optional arguments:
