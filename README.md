@@ -82,3 +82,4 @@ output of ```./learner.py -h```
 							abbreviates as i, f and s.
 
 	optional arguments:
+	  -h, --help            show this help message and exit
