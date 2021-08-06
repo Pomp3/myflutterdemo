@@ -83,3 +83,4 @@ output of ```./learner.py -h```
 
 	optional arguments:
 	  -h, --help            show this help message and exit
+	  -t {fit,predict,fitpredict,f,p,fp,doc}, --task {fit,predict,fitpredict,f,p,fp,doc}
