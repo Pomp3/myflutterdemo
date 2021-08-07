@@ -85,3 +85,4 @@ output of ```./learner.py -h```
 	  -h, --help            show this help message and exit
 	  -t {fit,predict,fitpredict,f,p,fp,doc}, --task {fit,predict,fitpredict,f,p,fp,doc}
 							task to process, see help for detailed information
+	  --training-file TRAINING_FILE
