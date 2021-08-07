@@ -87,3 +87,5 @@ output of ```./learner.py -h```
 							task to process, see help for detailed information
 	  --training-file TRAINING_FILE
 							input: training file, svm format by default
+	  --test-file TEST_FILE
+							input: test file, svm format by default
