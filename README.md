@@ -86,3 +86,4 @@ output of ```./learner.py -h```
 	  -t {fit,predict,fitpredict,f,p,fp,doc}, --task {fit,predict,fitpredict,f,p,fp,doc}
 							task to process, see help for detailed information
 	  --training-file TRAINING_FILE
+							input: training file, svm format by default
