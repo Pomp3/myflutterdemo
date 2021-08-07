@@ -89,3 +89,4 @@ output of ```./learner.py -h```
 							input: training file, svm format by default
 	  --test-file TEST_FILE
 							input: test file, svm format by default
+	  --model-input MODEL_INPUT
