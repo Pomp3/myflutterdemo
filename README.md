@@ -90,3 +90,4 @@ output of ```./learner.py -h```
 	  --test-file TEST_FILE
 							input: test file, svm format by default
 	  --model-input MODEL_INPUT
+							input: model input file, used in prediction
