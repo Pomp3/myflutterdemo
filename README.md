@@ -93,3 +93,4 @@ output of ```./learner.py -h```
 							input: model input file, used in prediction
 	  --model-output MODEL_OUTPUT
 							output: model output file, used in fitting
+	  -m {logisticr,knnc,mnb,perceptron,lsvc,lasso,abc,ridge,abr,elasticnet,bnb,knnr,sgdc,etr,rfr,nusvr,gbc,dtc,linearr,svc,rfc,etc,gbr,dtr,svr}, --model {logisticr,knnc,mnb,perceptron,lsvc,lasso,abc,ridge,abr,elasticnet,bnb,knnr,sgdc,etr,rfr,nusvr,gbc,dtc,linearr,svc,rfc,etc,gbr,dtr,svr}
