@@ -92,3 +92,4 @@ output of ```./learner.py -h```
 	  --model-input MODEL_INPUT
 							input: model input file, used in prediction
 	  --model-output MODEL_OUTPUT
+							output: model output file, used in fitting
