@@ -97,3 +97,4 @@ output of ```./learner.py -h```
 							model, specified in fitting
 	  --prediction-file PREDICTION_FILE
 							output: prediction file
+	  --model-format {pickle,joblib}
