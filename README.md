@@ -100,3 +100,4 @@ output of ```./learner.py -h```
 	  --model-format {pickle,joblib}
 							model format, pickle(default) or joblib
 	  --show-metrics        show metric after prediction
+	  -v [VERBOSE], --verbose [VERBOSE]
