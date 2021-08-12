@@ -98,3 +98,4 @@ output of ```./learner.py -h```
 	  --prediction-file PREDICTION_FILE
 							output: prediction file
 	  --model-format {pickle,joblib}
+							model format, pickle(default) or joblib
