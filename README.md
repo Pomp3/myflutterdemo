@@ -99,3 +99,4 @@ output of ```./learner.py -h```
 							output: prediction file
 	  --model-format {pickle,joblib}
 							model format, pickle(default) or joblib
+	  --show-metrics        show metric after prediction
