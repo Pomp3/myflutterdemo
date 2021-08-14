@@ -102,3 +102,4 @@ output of ```./learner.py -h```
 	  --show-metrics        show metric after prediction
 	  -v [VERBOSE], --verbose [VERBOSE]
 							verbose level, -v <level> or multiple -v's or
+							something like -vvv
