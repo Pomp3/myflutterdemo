@@ -103,3 +103,5 @@ output of ```./learner.py -h```
 	  -v [VERBOSE], --verbose [VERBOSE]
 							verbose level, -v <level> or multiple -v's or
 							something like -vvv
+
+	task specification:
