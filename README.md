@@ -108,3 +108,5 @@ output of ```./learner.py -h```
 		task name: fit, f
 			required arguments: training_file, model, model_output
 			optional arguments: model_options
+		task name: predict, p
+			required arguments: test_file, model_input, prediction_file
