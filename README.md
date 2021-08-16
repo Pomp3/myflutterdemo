@@ -105,3 +105,4 @@ output of ```./learner.py -h```
 							something like -vvv
 
 	task specification:
+		task name: fit, f
