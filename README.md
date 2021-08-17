@@ -116,3 +116,4 @@ output of ```./learner.py -h```
 			optional arguments: model_options, model_output
 		task name: doc
 			required arguments: model
+			optional arguments:
