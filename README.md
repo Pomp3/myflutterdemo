@@ -119,3 +119,4 @@ output of ```./learner.py -h```
 			optional arguments:
 	Notes:
 		1. model abbreviation correspondence:
+			Abbreviation Model
