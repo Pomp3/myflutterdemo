@@ -118,3 +118,4 @@ output of ```./learner.py -h```
 			required arguments: model
 			optional arguments:
 	Notes:
+		1. model abbreviation correspondence:
