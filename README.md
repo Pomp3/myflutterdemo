@@ -120,3 +120,4 @@ output of ```./learner.py -h```
 	Notes:
 		1. model abbreviation correspondence:
 			Abbreviation Model
+			abc          AdaBoostClassifier
