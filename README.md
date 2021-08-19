@@ -123,3 +123,4 @@ output of ```./learner.py -h```
 			abc          AdaBoostClassifier
 			abr          AdaBoostRegressor
 			bnb          BernoulliNB
+			dtc          DecisionTreeClassifier
