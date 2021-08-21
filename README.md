@@ -131,3 +131,4 @@ output of ```./learner.py -h```
 			gbc          GradientBoostingClassifier
 			gbr          GradientBoostingRegressor
 			knnc         KNeighborsClassifier
+			knnr         KNeighborsRegressor
