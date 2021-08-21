@@ -127,3 +127,4 @@ output of ```./learner.py -h```
 			dtr          DecisionTreeRegressor
 			elasticnet   ElasticNet
 			etc          ExtraTreesClassifier
+			etr          ExtraTreesRegressor
