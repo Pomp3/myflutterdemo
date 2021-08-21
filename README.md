@@ -128,3 +128,4 @@ output of ```./learner.py -h```
 			elasticnet   ElasticNet
 			etc          ExtraTreesClassifier
 			etr          ExtraTreesRegressor
+			gbc          GradientBoostingClassifier
