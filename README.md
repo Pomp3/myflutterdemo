@@ -125,3 +125,4 @@ output of ```./learner.py -h```
 			bnb          BernoulliNB
 			dtc          DecisionTreeClassifier
 			dtr          DecisionTreeRegressor
+			elasticnet   ElasticNet
