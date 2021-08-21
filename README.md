@@ -129,3 +129,5 @@ output of ```./learner.py -h```
 			etc          ExtraTreesClassifier
 			etr          ExtraTreesRegressor
 			gbc          GradientBoostingClassifier
+			gbr          GradientBoostingRegressor
+			knnc         KNeighborsClassifier
