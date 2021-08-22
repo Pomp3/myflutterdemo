@@ -134,3 +134,5 @@ output of ```./learner.py -h```
 			knnr         KNeighborsRegressor
 			lasso        Lasso
 			linearr      LinearRegression
+			logisticr    LogisticRegression
+			lsvc         LinearSVC
