@@ -136,3 +136,5 @@ output of ```./learner.py -h```
 			linearr      LinearRegression
 			logisticr    LogisticRegression
 			lsvc         LinearSVC
+			mnb          MultinomialNB
+			nusvr        NuSVR
