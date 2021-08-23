@@ -138,3 +138,4 @@ output of ```./learner.py -h```
 			lsvc         LinearSVC
 			mnb          MultinomialNB
 			nusvr        NuSVR
+			perceptron   Perceptron
