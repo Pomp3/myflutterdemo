@@ -139,3 +139,4 @@ output of ```./learner.py -h```
 			mnb          MultinomialNB
 			nusvr        NuSVR
 			perceptron   Perceptron
+			rfc          RandomForestClassifier
