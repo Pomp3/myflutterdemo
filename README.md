@@ -148,3 +148,6 @@ output of ```./learner.py -h```
 
 		2. model compatible with sparse matrix:
 			KNeighborsRegressor, SGDClassifier, LinearRegression, LogisticRegression, LinearSVC, KNeighborsClassifier, Ridge, Perceptron, NuSVR, SVR
+
+	Examples:
+		1. fit(train) a SVR model with sigmoid kernel:
