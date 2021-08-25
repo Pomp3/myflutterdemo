@@ -144,3 +144,4 @@ output of ```./learner.py -h```
 			ridge        Ridge
 			sgdc         SGDClassifier
 			svc          SVC
+			svr          SVR
