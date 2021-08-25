@@ -140,3 +140,5 @@ output of ```./learner.py -h```
 			nusvr        NuSVR
 			perceptron   Perceptron
 			rfc          RandomForestClassifier
+			rfr          RandomForestRegressor
+			ridge        Ridge
