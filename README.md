@@ -143,3 +143,4 @@ output of ```./learner.py -h```
 			rfr          RandomForestRegressor
 			ridge        Ridge
 			sgdc         SGDClassifier
+			svc          SVC
