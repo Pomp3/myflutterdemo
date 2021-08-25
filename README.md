@@ -145,3 +145,5 @@ output of ```./learner.py -h```
 			sgdc         SGDClassifier
 			svc          SVC
 			svr          SVR
+
+		2. model compatible with sparse matrix:
