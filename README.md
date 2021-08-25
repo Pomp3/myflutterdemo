@@ -147,3 +147,4 @@ output of ```./learner.py -h```
 			svr          SVR
 
 		2. model compatible with sparse matrix:
+			KNeighborsRegressor, SGDClassifier, LinearRegression, LogisticRegression, LinearSVC, KNeighborsClassifier, Ridge, Perceptron, NuSVR, SVR
