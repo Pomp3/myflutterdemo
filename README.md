@@ -155,3 +155,4 @@ output of ```./learner.py -h```
 					--model-output model.svr kernel:s:sigmoid
 
 		2. predict using precomputed model:
+			./learner.py -t p --test-file test --model-input model.svr
