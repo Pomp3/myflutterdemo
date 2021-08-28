@@ -156,3 +156,4 @@ output of ```./learner.py -h```
 
 		2. predict using precomputed model:
 			./learner.py -t p --test-file test --model-input model.svr
+				--prediction-file pred-result
