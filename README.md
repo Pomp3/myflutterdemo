@@ -153,3 +153,5 @@ output of ```./learner.py -h```
 		1. fit(train) a SVR model with sigmoid kernel:
 			./learner.py -t f --training-file training-data --model svr \
 					--model-output model.svr kernel:s:sigmoid
+
+		2. predict using precomputed model:
