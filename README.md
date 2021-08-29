@@ -164,3 +164,4 @@ output of ```./learner.py -h```
 				--prediction-file pred-result -v --show-metrics
 
 		4. pass parameters for svc model, specify linear kernel:
+			./learner.py --task fp --training-file training-data --model svc \
