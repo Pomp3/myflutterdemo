@@ -10,3 +10,4 @@
 #       http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics
 
 import sklearn
+from sklearn.neighbors import * # KNeighborsClassifier, KNeighborsRegressor
