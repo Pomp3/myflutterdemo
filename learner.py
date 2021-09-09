@@ -12,3 +12,5 @@
 import sklearn
 from sklearn.neighbors import * # KNeighborsClassifier, KNeighborsRegressor
 from sklearn.svm import * # SVC, SVR, NuSVR, LinearSVC
+
+# LinearRegression, LogisticRegression
