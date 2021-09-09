@@ -15,3 +15,4 @@ from sklearn.svm import * # SVC, SVR, NuSVR, LinearSVC
 
 # LinearRegression, LogisticRegression
 # SGDClassifier, Perceptron, Ridge, Lasso, ElasticNet
+from sklearn.linear_model import *
