@@ -18,3 +18,4 @@ from sklearn.svm import * # SVC, SVR, NuSVR, LinearSVC
 from sklearn.linear_model import *
 
 # MultinomialNB, BernoulliNB
+from sklearn.naive_bayes import *
