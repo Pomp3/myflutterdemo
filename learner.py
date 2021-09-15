@@ -19,3 +19,5 @@ from sklearn.linear_model import *
 
 # MultinomialNB, BernoulliNB
 from sklearn.naive_bayes import *
+
+from sklearn.tree import * # DecisionTreeClassifier, DecisionTreeRegressor
