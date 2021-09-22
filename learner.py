@@ -21,3 +21,5 @@ from sklearn.linear_model import *
 from sklearn.naive_bayes import *
 
 from sklearn.tree import * # DecisionTreeClassifier, DecisionTreeRegressor
+
+from scipy import sparse
