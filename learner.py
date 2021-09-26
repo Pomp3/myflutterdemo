@@ -25,3 +25,4 @@ from sklearn.tree import * # DecisionTreeClassifier, DecisionTreeRegressor
 from scipy import sparse
 
 # RandomForestClassifier, RandomForestRegressor
+# ExtraTreesClassifier, ExtraTreesRegressor
