@@ -26,3 +26,4 @@ from scipy import sparse
 
 # RandomForestClassifier, RandomForestRegressor
 # ExtraTreesClassifier, ExtraTreesRegressor
+# AdaBoostClassifier, AdaBoostRegressor
