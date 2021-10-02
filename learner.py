@@ -27,3 +27,5 @@ from scipy import sparse
 # RandomForestClassifier, RandomForestRegressor
 # ExtraTreesClassifier, ExtraTreesRegressor
 # AdaBoostClassifier, AdaBoostRegressor
+# GradientBoostingClassifier, GradientBoostingRegressor
+from sklearn.ensemble import *
