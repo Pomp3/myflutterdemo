@@ -35,3 +35,4 @@ from sklearn.externals import joblib
 import pickle
 
 # metrics
+from sklearn import metrics
