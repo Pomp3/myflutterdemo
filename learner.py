@@ -45,3 +45,4 @@ import types
 
 
 models = {
+        'linearr': LinearRegression,
