@@ -46,3 +46,4 @@ import types
 
 models = {
         'linearr': LinearRegression,
+        'logisticr': LogisticRegression,
