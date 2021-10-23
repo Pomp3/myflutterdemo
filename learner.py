@@ -47,3 +47,4 @@ import types
 models = {
         'linearr': LinearRegression,
         'logisticr': LogisticRegression,
+        'knnc': KNeighborsClassifier,
