@@ -49,3 +49,4 @@ models = {
         'logisticr': LogisticRegression,
         'knnc': KNeighborsClassifier,
         'knnr': KNeighborsRegressor,
+        'svc': SVC,
