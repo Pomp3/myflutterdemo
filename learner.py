@@ -50,3 +50,4 @@ models = {
         'knnc': KNeighborsClassifier,
         'knnr': KNeighborsRegressor,
         'svc': SVC,
+        'svr': SVR,
