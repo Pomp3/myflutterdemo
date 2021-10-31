@@ -52,3 +52,4 @@ models = {
         'svc': SVC,
         'svr': SVR,
         'nusvr': NuSVR,
+        'lsvc': LinearSVC,
