@@ -48,3 +48,4 @@ models = {
         'linearr': LinearRegression,
         'logisticr': LogisticRegression,
         'knnc': KNeighborsClassifier,
+        'knnr': KNeighborsRegressor,
