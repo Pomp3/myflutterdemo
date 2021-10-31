@@ -51,3 +51,4 @@ models = {
         'knnr': KNeighborsRegressor,
         'svc': SVC,
         'svr': SVR,
+        'nusvr': NuSVR,
