@@ -53,3 +53,4 @@ models = {
         'svr': SVR,
         'nusvr': NuSVR,
         'lsvc': LinearSVC,
+        'sgdc': SGDClassifier,
