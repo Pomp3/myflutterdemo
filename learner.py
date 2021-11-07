@@ -54,3 +54,4 @@ models = {
         'nusvr': NuSVR,
         'lsvc': LinearSVC,
         'sgdc': SGDClassifier,
+        'dtc': DecisionTreeClassifier,
