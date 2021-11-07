@@ -55,3 +55,5 @@ models = {
         'lsvc': LinearSVC,
         'sgdc': SGDClassifier,
         'dtc': DecisionTreeClassifier,
+        'dtr': DecisionTreeRegressor,
+        'rfc': RandomForestClassifier,
