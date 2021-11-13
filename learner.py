@@ -59,3 +59,4 @@ models = {
         'rfc': RandomForestClassifier,
         'rfr': RandomForestRegressor,
         'etc': ExtraTreesClassifier,
+        'etr': ExtraTreesRegressor,
