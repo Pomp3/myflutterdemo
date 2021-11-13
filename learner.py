@@ -57,3 +57,5 @@ models = {
         'dtc': DecisionTreeClassifier,
         'dtr': DecisionTreeRegressor,
         'rfc': RandomForestClassifier,
+        'rfr': RandomForestRegressor,
+        'etc': ExtraTreesClassifier,
