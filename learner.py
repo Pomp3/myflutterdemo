@@ -60,3 +60,4 @@ models = {
         'rfr': RandomForestRegressor,
         'etc': ExtraTreesClassifier,
         'etr': ExtraTreesRegressor,
+        'abc': AdaBoostClassifier,
