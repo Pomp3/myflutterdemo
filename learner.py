@@ -61,3 +61,5 @@ models = {
         'etc': ExtraTreesClassifier,
         'etr': ExtraTreesRegressor,
         'abc': AdaBoostClassifier,
+        'abr': AdaBoostRegressor,
+        'gbc': GradientBoostingClassifier,
