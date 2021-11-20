@@ -64,3 +64,4 @@ models = {
         'abr': AdaBoostRegressor,
         'gbc': GradientBoostingClassifier,
         'gbr': GradientBoostingRegressor,
+        'perceptron': Perceptron,
