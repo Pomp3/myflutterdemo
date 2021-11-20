@@ -65,3 +65,6 @@ models = {
         'gbc': GradientBoostingClassifier,
         'gbr': GradientBoostingRegressor,
         'perceptron': Perceptron,
+        'ridge': Ridge,
+        'lasso': Lasso,
+        'elasticnet': ElasticNet,
