@@ -68,3 +68,4 @@ models = {
         'ridge': Ridge,
         'lasso': Lasso,
         'elasticnet': ElasticNet,
+        'mnb': MultinomialNB,
