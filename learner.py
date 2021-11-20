@@ -63,3 +63,4 @@ models = {
         'abc': AdaBoostClassifier,
         'abr': AdaBoostRegressor,
         'gbc': GradientBoostingClassifier,
+        'gbr': GradientBoostingRegressor,
