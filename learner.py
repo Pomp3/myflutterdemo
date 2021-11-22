@@ -70,3 +70,4 @@ models = {
         'elasticnet': ElasticNet,
         'mnb': MultinomialNB,
         'bnb': BernoulliNB,
+        }
