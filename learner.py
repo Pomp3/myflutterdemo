@@ -69,3 +69,4 @@ models = {
         'lasso': Lasso,
         'elasticnet': ElasticNet,
         'mnb': MultinomialNB,
+        'bnb': BernoulliNB,
