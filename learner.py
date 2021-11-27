@@ -71,3 +71,6 @@ models = {
         'mnb': MultinomialNB,
         'bnb': BernoulliNB,
         }
+
+sparse_models = set([
+    SVR,
