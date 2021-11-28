@@ -74,3 +74,5 @@ models = {
 
 sparse_models = set([
     SVR,
+    NuSVR,
+    LinearSVC,
