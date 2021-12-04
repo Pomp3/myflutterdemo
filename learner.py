@@ -77,3 +77,4 @@ sparse_models = set([
     NuSVR,
     LinearSVC,
     KNeighborsClassifier,
+    KNeighborsRegressor,
