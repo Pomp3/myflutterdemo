@@ -80,3 +80,4 @@ sparse_models = set([
     KNeighborsRegressor,
     SGDClassifier,
     Perceptron,
+    Ridge,
