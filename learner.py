@@ -81,3 +81,4 @@ sparse_models = set([
     SGDClassifier,
     Perceptron,
     Ridge,
+    LogisticRegression,
