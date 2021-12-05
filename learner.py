@@ -78,3 +78,5 @@ sparse_models = set([
     LinearSVC,
     KNeighborsClassifier,
     KNeighborsRegressor,
+    SGDClassifier,
+    Perceptron,
