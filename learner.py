@@ -83,3 +83,4 @@ sparse_models = set([
     Ridge,
     LogisticRegression,
     LinearRegression,
+    ])
