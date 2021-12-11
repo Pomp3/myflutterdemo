@@ -86,3 +86,6 @@ sparse_models = set([
     ])
 
 args = []
+
+# table is a 2-D string list
+# return a printed string
