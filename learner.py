@@ -91,3 +91,4 @@ args = []
 # return a printed string
 def format_table(table):
     if len(table) == 0:
+        return ''
