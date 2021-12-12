@@ -92,3 +92,4 @@ args = []
 def format_table(table):
     if len(table) == 0:
         return ''
+    col_length = defaultdict(int)
