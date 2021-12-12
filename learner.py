@@ -90,3 +90,4 @@ args = []
 # table is a 2-D string list
 # return a printed string
 def format_table(table):
+    if len(table) == 0:
