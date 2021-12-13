@@ -94,3 +94,4 @@ def format_table(table):
         return ''
     col_length = defaultdict(int)
     for row in table:
+        for ind, item in enumerate(row):
