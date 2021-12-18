@@ -96,3 +96,5 @@ def format_table(table):
     for row in table:
         for ind, item in enumerate(row):
             col_length[ind] = max(col_length[ind], len(item))
+
+    # WARNING: low efficiency, use string buffer instead
