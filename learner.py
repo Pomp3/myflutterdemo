@@ -95,3 +95,4 @@ def format_table(table):
     col_length = defaultdict(int)
     for row in table:
         for ind, item in enumerate(row):
+            col_length[ind] = max(col_length[ind], len(item))
