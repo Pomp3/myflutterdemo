@@ -99,3 +99,4 @@ def format_table(table):
 
     # WARNING: low efficiency, use string buffer instead
     ret = ''
+    for row in table:
