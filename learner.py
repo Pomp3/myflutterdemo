@@ -98,3 +98,4 @@ def format_table(table):
             col_length[ind] = max(col_length[ind], len(item))
 
     # WARNING: low efficiency, use string buffer instead
+    ret = ''
