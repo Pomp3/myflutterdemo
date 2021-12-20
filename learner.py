@@ -100,3 +100,4 @@ def format_table(table):
     # WARNING: low efficiency, use string buffer instead
     ret = ''
     for row in table:
+        for ind, item in enumerate(row):
