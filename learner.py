@@ -102,3 +102,4 @@ def format_table(table):
     for row in table:
         for ind, item in enumerate(row):
             fmtstr = '{{:<{}}}' . format(col_length[ind])
+            ret += fmtstr.format(item) + " "
