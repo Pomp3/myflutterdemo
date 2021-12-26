@@ -104,3 +104,4 @@ def format_table(table):
             fmtstr = '{{:<{}}}' . format(col_length[ind])
             ret += fmtstr.format(item) + " "
         ret += "\n"
+    return ret
