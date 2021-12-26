@@ -107,3 +107,4 @@ def format_table(table):
     return ret
 
 def get_model_abbr_help():
+    lines = format_table([['Abbreviation', 'Model']] + map(lambda item: [item[0], item[1].__name__], \
