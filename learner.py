@@ -105,3 +105,5 @@ def format_table(table):
             ret += fmtstr.format(item) + " "
         ret += "\n"
     return ret
+
+def get_model_abbr_help():
