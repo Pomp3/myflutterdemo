@@ -112,3 +112,4 @@ def get_model_abbr_help():
     return "\n".join(map(lambda x: ' ' * 8 + x, lines))
 
 class VerboseAction(argparse.Action):
+    def __call__(self, parser, args, values, option_string=None):
