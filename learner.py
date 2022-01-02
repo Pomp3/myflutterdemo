@@ -114,3 +114,5 @@ def get_model_abbr_help():
 class VerboseAction(argparse.Action):
     def __call__(self, parser, args, values, option_string=None):
         # print 'values: {v!r}'.format(v=values)
+        if values==None:
+            values='1'
