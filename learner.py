@@ -110,3 +110,5 @@ def get_model_abbr_help():
     lines = format_table([['Abbreviation', 'Model']] + map(lambda item: [item[0], item[1].__name__], \
         sorted(models.items()))).split('\n')
     return "\n".join(map(lambda x: ' ' * 8 + x, lines))
+
+class VerboseAction(argparse.Action):
