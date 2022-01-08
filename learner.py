@@ -118,3 +118,4 @@ class VerboseAction(argparse.Action):
             values='1'
         try:
             values=int(values)
+        except ValueError:
