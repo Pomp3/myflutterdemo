@@ -117,3 +117,4 @@ class VerboseAction(argparse.Action):
         if values==None:
             values='1'
         try:
+            values=int(values)
