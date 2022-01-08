@@ -116,3 +116,4 @@ class VerboseAction(argparse.Action):
         # print 'values: {v!r}'.format(v=values)
         if values==None:
             values='1'
+        try:
