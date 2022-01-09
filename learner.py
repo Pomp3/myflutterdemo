@@ -121,3 +121,5 @@ class VerboseAction(argparse.Action):
         except ValueError:
             values=values.count('v')+1
         setattr(args, self.dest, values)
+
+def get_args():
