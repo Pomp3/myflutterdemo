@@ -120,3 +120,4 @@ class VerboseAction(argparse.Action):
             values=int(values)
         except ValueError:
             values=values.count('v')+1
+        setattr(args, self.dest, values)
