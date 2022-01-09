@@ -123,3 +123,4 @@ class VerboseAction(argparse.Action):
         setattr(args, self.dest, values)
 
 def get_args():
+    description = 'command line wrapper for some models in scikit-learn'
