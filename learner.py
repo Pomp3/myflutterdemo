@@ -127,3 +127,4 @@ def get_args():
 
     tasks = ['fit', 'predict', 'fitpredict',
             'f', 'p', 'fp',
+            'doc']
