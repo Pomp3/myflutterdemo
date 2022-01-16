@@ -128,3 +128,7 @@ def get_args():
     tasks = ['fit', 'predict', 'fitpredict',
             'f', 'p', 'fp',
             'doc']
+
+    # (task_names, required_params, optional_params)
+    task_arg_setting = [
+            (['fit', 'f'],
