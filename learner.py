@@ -133,3 +133,4 @@ def get_args():
     task_arg_setting = [
             (['fit', 'f'],
                 ['training_file', 'model', 'model_output'],
+                ['model_options']),
