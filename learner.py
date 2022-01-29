@@ -138,3 +138,5 @@ def get_args():
                 ['test_file', 'model_input', 'prediction_file'],
                 []),
             (['fitpredict', 'fp'],
+                ['training_file', 'model', 'test_file', 'prediction_file'],
+                ['model_options', 'model_output']),
