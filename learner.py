@@ -134,3 +134,4 @@ def get_args():
             (['fit', 'f'],
                 ['training_file', 'model', 'model_output'],
                 ['model_options']),
+            (['predict', 'p'],
