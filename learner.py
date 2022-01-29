@@ -136,3 +136,5 @@ def get_args():
                 ['model_options']),
             (['predict', 'p'],
                 ['test_file', 'model_input', 'prediction_file'],
+                []),
+            (['fitpredict', 'fp'],
