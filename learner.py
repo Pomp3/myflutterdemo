@@ -141,3 +141,4 @@ def get_args():
                 ['training_file', 'model', 'test_file', 'prediction_file'],
                 ['model_options', 'model_output']),
             (['doc'],
+                ['model'],
