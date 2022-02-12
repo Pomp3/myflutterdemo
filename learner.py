@@ -142,3 +142,4 @@ def get_args():
                 ['model_options', 'model_output']),
             (['doc'],
                 ['model'],
+                [])
