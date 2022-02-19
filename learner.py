@@ -144,3 +144,5 @@ def get_args():
                 ['model'],
                 [])
             ]
+
+    epilog = "task specification:\n{}" . format(
