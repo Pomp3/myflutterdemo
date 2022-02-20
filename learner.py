@@ -149,3 +149,5 @@ def get_args():
             "\n" . join([
                 '    task name: {}\n        required arguments: {}\n        optional arguments: {}' . format(
                     *map(lambda item: ", " . join(item), setting)) \
+                            for setting in task_arg_setting]))
+    epilog += "\n"
