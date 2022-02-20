@@ -148,3 +148,4 @@ def get_args():
     epilog = "task specification:\n{}" . format(
             "\n" . join([
                 '    task name: {}\n        required arguments: {}\n        optional arguments: {}' . format(
+                    *map(lambda item: ", " . join(item), setting)) \
