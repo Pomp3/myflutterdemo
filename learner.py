@@ -153,3 +153,4 @@ def get_args():
     epilog += "\n"
 
     epilog += "Notes:\n"
+    epilog += "    1. model abbreviation correspondence:\n"
