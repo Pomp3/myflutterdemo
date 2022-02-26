@@ -151,3 +151,5 @@ def get_args():
                     *map(lambda item: ", " . join(item), setting)) \
                             for setting in task_arg_setting]))
     epilog += "\n"
+
+    epilog += "Notes:\n"
