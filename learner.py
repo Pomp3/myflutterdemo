@@ -154,3 +154,5 @@ def get_args():
 
     epilog += "Notes:\n"
     epilog += "    1. model abbreviation correspondence:\n"
+    epilog += get_model_abbr_help() + '\n'
+    epilog += "    2. model compatible with sparse matrix:\n"
