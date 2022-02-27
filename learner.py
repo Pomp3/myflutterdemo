@@ -157,3 +157,5 @@ def get_args():
     epilog += get_model_abbr_help() + '\n'
     epilog += "    2. model compatible with sparse matrix:\n"
     epilog += ' ' * 8 + ", " . join(map(lambda x: x.__name__, sparse_models))
+    epilog += '\n'
+    epilog += '\n'
