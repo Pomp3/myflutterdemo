@@ -161,3 +161,5 @@ def get_args():
     epilog += '\n'
 
     epilog += 'Examples:\n'
+    epilog += """\
+    1. fit(train) a SVR model with sigmoid kernel:
