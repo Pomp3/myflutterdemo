@@ -159,3 +159,5 @@ def get_args():
     epilog += ' ' * 8 + ", " . join(map(lambda x: x.__name__, sparse_models))
     epilog += '\n'
     epilog += '\n'
+
+    epilog += 'Examples:\n'
