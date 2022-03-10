@@ -165,3 +165,7 @@ def get_args():
     1. fit(train) a SVR model with sigmoid kernel:
         ./learner.py -t f --training-file training-data --model svr \\
                 --model-output model.svr kernel:s:sigmoid
+
+    2. predict using precomputed model:
+        ./learner.py -t p --test-file test --model-input model.svr
+            --prediction-file pred-result
