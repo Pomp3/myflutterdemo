@@ -169,3 +169,5 @@ def get_args():
     2. predict using precomputed model:
         ./learner.py -t p --test-file test --model-input model.svr
             --prediction-file pred-result
+
+    3. fit and predict, model saved, verbose output, and show metrics:
