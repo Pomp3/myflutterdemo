@@ -173,3 +173,4 @@ def get_args():
     3. fit and predict, model saved, verbose output, and show metrics:
         ./learner.py -t fp --training-file training-data --model svr \\
             --model-output model.svr --test-file test-data \\
+            --prediction-file pred-result -v --show-metrics
