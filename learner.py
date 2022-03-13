@@ -174,3 +174,6 @@ def get_args():
         ./learner.py -t fp --training-file training-data --model svr \\
             --model-output model.svr --test-file test-data \\
             --prediction-file pred-result -v --show-metrics
+
+    4. pass parameters for svc model, specify linear kernel:
+        ./learner.py --task fp --training-file training-data --model svc \\
