@@ -181,3 +181,4 @@ def get_args():
             --show-metrics kernel:s:linear
 
     5. show documents:
+        ./learner.py -t doc --model svc
