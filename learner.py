@@ -189,3 +189,4 @@ def get_args():
             description = description, epilog = epilog,
             formatter_class = argparse.RawDescriptionHelpFormatter)
     parser.add_argument('-t', '--task',
+            choices = tasks,
