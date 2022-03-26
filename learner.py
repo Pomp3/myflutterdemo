@@ -184,3 +184,6 @@ def get_args():
         ./learner.py -t doc --model svc
 """
 
+
+    parser = argparse.ArgumentParser(
+            description = description, epilog = epilog,
