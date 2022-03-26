@@ -187,3 +187,4 @@ def get_args():
 
     parser = argparse.ArgumentParser(
             description = description, epilog = epilog,
+            formatter_class = argparse.RawDescriptionHelpFormatter)
