@@ -191,3 +191,4 @@ def get_args():
     parser.add_argument('-t', '--task',
             choices = tasks,
             help = 'task to process, see help for detailed information',
+            required = True)
