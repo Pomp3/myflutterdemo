@@ -190,3 +190,4 @@ def get_args():
             formatter_class = argparse.RawDescriptionHelpFormatter)
     parser.add_argument('-t', '--task',
             choices = tasks,
+            help = 'task to process, see help for detailed information',
