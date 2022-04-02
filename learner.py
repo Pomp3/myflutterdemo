@@ -192,3 +192,4 @@ def get_args():
             choices = tasks,
             help = 'task to process, see help for detailed information',
             required = True)
+    parser.add_argument('--training-file',
