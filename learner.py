@@ -193,3 +193,4 @@ def get_args():
             help = 'task to process, see help for detailed information',
             required = True)
     parser.add_argument('--training-file',
+            help = 'input: training file, svm format by default')
