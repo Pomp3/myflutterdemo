@@ -198,3 +198,4 @@ def get_args():
             help = 'input: test file, svm format by default')
     parser.add_argument('--model-input',
             help = 'input: model input file, used in prediction')
+    parser.add_argument('--model-output',
