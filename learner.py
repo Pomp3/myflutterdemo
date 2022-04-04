@@ -199,3 +199,4 @@ def get_args():
     parser.add_argument('--model-input',
             help = 'input: model input file, used in prediction')
     parser.add_argument('--model-output',
+            help = 'output: model output file, used in fitting')
