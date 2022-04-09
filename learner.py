@@ -205,3 +205,5 @@ def get_args():
             choices = models)
     parser.add_argument('--prediction-file',
             help = 'output: prediction file')
+
+    parser.add_argument('--model-format',
