@@ -203,3 +203,4 @@ def get_args():
     parser.add_argument('-m', '--model',
             help = 'model, specified in fitting',
             choices = models)
+    parser.add_argument('--prediction-file',
