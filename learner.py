@@ -204,3 +204,4 @@ def get_args():
             help = 'model, specified in fitting',
             choices = models)
     parser.add_argument('--prediction-file',
+            help = 'output: prediction file')
