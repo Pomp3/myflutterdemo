@@ -207,3 +207,4 @@ def get_args():
             help = 'output: prediction file')
 
     parser.add_argument('--model-format',
+            choices = ['pickle', 'joblib'],
