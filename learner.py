@@ -202,3 +202,4 @@ def get_args():
             help = 'output: model output file, used in fitting')
     parser.add_argument('-m', '--model',
             help = 'model, specified in fitting',
+            choices = models)
