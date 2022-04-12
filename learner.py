@@ -208,3 +208,4 @@ def get_args():
 
     parser.add_argument('--model-format',
             choices = ['pickle', 'joblib'],
+            default = 'pickle',
