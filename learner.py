@@ -210,3 +210,5 @@ def get_args():
             choices = ['pickle', 'joblib'],
             default = 'pickle',
             help = 'model format, pickle(default) or joblib')
+
+    parser.add_argument('--show-metrics',
