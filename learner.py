@@ -212,3 +212,5 @@ def get_args():
             help = 'model format, pickle(default) or joblib')
 
     parser.add_argument('--show-metrics',
+            action = 'store_true',
+            help = 'show metric after prediction')
