@@ -214,3 +214,5 @@ def get_args():
     parser.add_argument('--show-metrics',
             action = 'store_true',
             help = 'show metric after prediction')
+
+    parser.add_argument('-v', '--verbose',
