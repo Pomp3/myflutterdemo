@@ -217,3 +217,4 @@ def get_args():
 
     parser.add_argument('-v', '--verbose',
             help = 'verbose level, -v <level> or multiple -v\'s or something like -vvv',
+            nargs = '?',
