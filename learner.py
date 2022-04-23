@@ -216,3 +216,4 @@ def get_args():
             help = 'show metric after prediction')
 
     parser.add_argument('-v', '--verbose',
+            help = 'verbose level, -v <level> or multiple -v\'s or something like -vvv',
