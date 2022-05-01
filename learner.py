@@ -220,3 +220,5 @@ def get_args():
             nargs = '?',
             default = 0,
             action = VerboseAction)
+
+    parser.add_argument('model_options',
