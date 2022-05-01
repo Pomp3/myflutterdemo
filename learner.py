@@ -222,3 +222,4 @@ def get_args():
             action = VerboseAction)
 
     parser.add_argument('model_options',
+            nargs = '*',
