@@ -224,3 +224,4 @@ def get_args():
     parser.add_argument('model_options',
             nargs = '*',
             help = """\
+additional paramters for specific model of format "name:type:val", \
