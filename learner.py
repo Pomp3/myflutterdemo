@@ -225,3 +225,4 @@ def get_args():
             nargs = '*',
             help = """\
 additional paramters for specific model of format "name:type:val", \
+effective only when training is needed. type is either int, float or str, \
