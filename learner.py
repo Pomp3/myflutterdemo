@@ -226,3 +226,6 @@ def get_args():
             help = """\
 additional paramters for specific model of format "name:type:val", \
 effective only when training is needed. type is either int, float or str, \
+which abbreviates as i, f and s.""")
+
+    args = parser.parse_args()
