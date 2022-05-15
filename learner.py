@@ -232,3 +232,4 @@ which abbreviates as i, f and s.""")
 
     model_options = dict()
     for opt in args.model_options:
+        opt = opt.split(':')
