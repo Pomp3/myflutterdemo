@@ -231,3 +231,4 @@ which abbreviates as i, f and s.""")
     args = parser.parse_args()
 
     model_options = dict()
+    for opt in args.model_options:
