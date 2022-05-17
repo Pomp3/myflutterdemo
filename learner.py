@@ -234,3 +234,4 @@ which abbreviates as i, f and s.""")
     for opt in args.model_options:
         opt = opt.split(':')
         assert len(opt) == 3, 'model option format error'
+        key, t, val = opt
