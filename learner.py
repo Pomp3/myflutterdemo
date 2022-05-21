@@ -236,3 +236,4 @@ which abbreviates as i, f and s.""")
         assert len(opt) == 3, 'model option format error'
         key, t, val = opt
         if t == 'i':
+            t = 'int'
