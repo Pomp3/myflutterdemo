@@ -237,3 +237,4 @@ which abbreviates as i, f and s.""")
         key, t, val = opt
         if t == 'i':
             t = 'int'
+        elif t == 'f':
