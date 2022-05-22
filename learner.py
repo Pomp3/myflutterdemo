@@ -241,3 +241,4 @@ which abbreviates as i, f and s.""")
             t = 'float'
         elif t == 's':
             t = 'str'
+        elif t == 'b':
