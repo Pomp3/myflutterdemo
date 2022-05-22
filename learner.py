@@ -243,3 +243,5 @@ which abbreviates as i, f and s.""")
             t = 'str'
         elif t == 'b':
             t = 'bool'
+
+        model_options[key] = eval(t)(val)
