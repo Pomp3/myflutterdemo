@@ -242,3 +242,4 @@ which abbreviates as i, f and s.""")
         elif t == 's':
             t = 'str'
         elif t == 'b':
+            t = 'bool'
