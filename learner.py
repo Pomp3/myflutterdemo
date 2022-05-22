@@ -238,3 +238,5 @@ which abbreviates as i, f and s.""")
         if t == 'i':
             t = 'int'
         elif t == 'f':
+            t = 'float'
+        elif t == 's':
