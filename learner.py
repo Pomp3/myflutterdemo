@@ -240,3 +240,4 @@ which abbreviates as i, f and s.""")
         elif t == 'f':
             t = 'float'
         elif t == 's':
+            t = 'str'
