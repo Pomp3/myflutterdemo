@@ -245,3 +245,7 @@ which abbreviates as i, f and s.""")
             t = 'bool'
 
         model_options[key] = eval(t)(val)
+
+    args.model_options = model_options
+
+    # make task name a full name
