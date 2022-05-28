@@ -249,3 +249,4 @@ which abbreviates as i, f and s.""")
     args.model_options = model_options
 
     # make task name a full name
+    for setting in task_arg_setting:
