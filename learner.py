@@ -251,3 +251,4 @@ which abbreviates as i, f and s.""")
     # make task name a full name
     for setting in task_arg_setting:
         if args.task in setting[0]:
+            args.task = setting[0][0]
