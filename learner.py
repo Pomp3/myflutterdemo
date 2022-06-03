@@ -252,3 +252,6 @@ which abbreviates as i, f and s.""")
     for setting in task_arg_setting:
         if args.task in setting[0]:
             args.task = setting[0][0]
+
+    # check whether paramters for specific task is met
+    def check_params(task, argnames):
