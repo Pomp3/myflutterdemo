@@ -255,3 +255,5 @@ which abbreviates as i, f and s.""")
 
     # check whether paramters for specific task is met
     def check_params(task, argnames):
+        if args.task in task:
+            for name in argnames:
