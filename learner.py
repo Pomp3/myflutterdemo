@@ -258,3 +258,4 @@ which abbreviates as i, f and s.""")
         if args.task in task:
             for name in argnames:
                 if not(name in args.__dict__ and args.__dict__[name]):
+                    info = 'argument `{}\' must present in `{}\' task' .\
