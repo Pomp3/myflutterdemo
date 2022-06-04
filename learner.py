@@ -257,3 +257,4 @@ which abbreviates as i, f and s.""")
     def check_params(task, argnames):
         if args.task in task:
             for name in argnames:
+                if not(name in args.__dict__ and args.__dict__[name]):
