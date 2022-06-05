@@ -260,3 +260,4 @@ which abbreviates as i, f and s.""")
                 if not(name in args.__dict__ and args.__dict__[name]):
                     info = 'argument `{}\' must present in `{}\' task' .\
                             format("--" + name.replace('_', '-'), task[0])
+                    raise Exception(info)
