@@ -261,3 +261,5 @@ which abbreviates as i, f and s.""")
                     info = 'argument `{}\' must present in `{}\' task' .\
                             format("--" + name.replace('_', '-'), task[0])
                     raise Exception(info)
+
+    try:
