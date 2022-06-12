@@ -263,3 +263,5 @@ which abbreviates as i, f and s.""")
                     raise Exception(info)
 
     try:
+        for setting in task_arg_setting:
+            check_params(setting[0], setting[1])
