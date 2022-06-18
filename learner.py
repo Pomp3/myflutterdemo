@@ -265,3 +265,5 @@ which abbreviates as i, f and s.""")
     try:
         for setting in task_arg_setting:
             check_params(setting[0], setting[1])
+    except Exception as e:
+        sys.stderr.write(str(e) + '\n')
