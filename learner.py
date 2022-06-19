@@ -268,3 +268,5 @@ which abbreviates as i, f and s.""")
     except Exception as e:
         sys.stderr.write(str(e) + '\n')
         sys.exit(1)
+
+    # add a verbose print method to args
