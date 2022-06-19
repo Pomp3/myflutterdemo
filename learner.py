@@ -267,3 +267,4 @@ which abbreviates as i, f and s.""")
             check_params(setting[0], setting[1])
     except Exception as e:
         sys.stderr.write(str(e) + '\n')
+        sys.exit(1)
