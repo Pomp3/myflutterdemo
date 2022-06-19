@@ -270,3 +270,5 @@ which abbreviates as i, f and s.""")
         sys.exit(1)
 
     # add a verbose print method to args
+    def verbose_print(self, msg, vb = 1): # vb = verbose_level
+        if vb <= self.verbose:
