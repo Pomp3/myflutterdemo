@@ -273,3 +273,5 @@ which abbreviates as i, f and s.""")
     def verbose_print(self, msg, vb = 1): # vb = verbose_level
         if vb <= self.verbose:
             print(msg)
+
+    args.vprint = types.MethodType(verbose_print, args, args.__class__)
