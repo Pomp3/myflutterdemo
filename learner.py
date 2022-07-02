@@ -276,3 +276,5 @@ which abbreviates as i, f and s.""")
 
     args.vprint = types.MethodType(verbose_print, args, args.__class__)
 
+
+    return args
