@@ -282,3 +282,4 @@ which abbreviates as i, f and s.""")
 def read_svmformat_data(fname):
     from sklearn.datasets import load_svmlight_file
     X, y = load_svmlight_file(fname)
+    return X, y
