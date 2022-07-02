@@ -278,3 +278,5 @@ which abbreviates as i, f and s.""")
 
 
     return args
+
+def read_svmformat_data(fname):
