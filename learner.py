@@ -284,3 +284,5 @@ def read_svmformat_data(fname):
     X, y = load_svmlight_file(fname)
     return X, y
 
+
+def write_labels(fname, y_pred):
