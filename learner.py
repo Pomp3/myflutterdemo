@@ -286,3 +286,4 @@ def read_svmformat_data(fname):
 
 
 def write_labels(fname, y_pred):
+    count_types = defaultdict(int)
