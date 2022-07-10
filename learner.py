@@ -289,3 +289,4 @@ def write_labels(fname, y_pred):
     count_types = defaultdict(int)
     for y in y_pred:
         count_types[type(y)] += 1
+    most_prevalent_type = sorted(map(lambda x: (x[1], x[0]), count_types.iteritems()))[0][1]
