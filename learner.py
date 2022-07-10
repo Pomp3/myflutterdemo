@@ -290,3 +290,4 @@ def write_labels(fname, y_pred):
     for y in y_pred:
         count_types[type(y)] += 1
     most_prevalent_type = sorted(map(lambda x: (x[1], x[0]), count_types.iteritems()))[0][1]
+    if most_prevalent_type == float:
