@@ -294,3 +294,5 @@ def write_labels(fname, y_pred):
         typefmt = '{:f}'
     else:
         typefmt = '{}'
+
+    with open(fname, 'w') as fout:
