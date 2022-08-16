@@ -298,3 +298,6 @@ def write_labels(fname, y_pred):
     with open(fname, 'w') as fout:
         for y in y_pred:
             fout.write(typefmt.format(y) + '\n')
+
+
+def get_model(args):
