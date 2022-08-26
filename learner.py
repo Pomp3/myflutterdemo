@@ -303,3 +303,6 @@ def write_labels(fname, y_pred):
 def get_model(args):
     model = models[args.model](**args.model_options)
     return model
+
+def get_dim(X):
+    dim = -1
