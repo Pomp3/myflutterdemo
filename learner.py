@@ -307,3 +307,4 @@ def get_model(args):
 def get_dim(X):
     dim = -1
     for x in X:
+        for ind, val in x:
