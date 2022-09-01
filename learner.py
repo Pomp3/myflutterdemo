@@ -311,3 +311,5 @@ def get_dim(X):
             if ind > dim:
                 dim = ind
     return dim + 1
+
+def preprocess_data(model, X):
