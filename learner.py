@@ -310,3 +310,4 @@ def get_dim(X):
         for ind, val in x:
             if ind > dim:
                 dim = ind
+    return dim + 1
