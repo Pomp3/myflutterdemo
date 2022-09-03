@@ -314,3 +314,4 @@ def get_dim(X):
 
 def preprocess_data(model, X):
     assert type(X) == sparse.csr_matrix
+    if model in sparse_models:
