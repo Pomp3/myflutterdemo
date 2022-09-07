@@ -317,3 +317,6 @@ def preprocess_data(model, X):
     if model in sparse_models:
         return X
     return X.toarray()
+
+def save_model(fname, model):
+    if args.model_format == 'pickle':
