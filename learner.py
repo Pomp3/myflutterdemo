@@ -320,3 +320,4 @@ def preprocess_data(model, X):
 
 def save_model(fname, model):
     if args.model_format == 'pickle':
+        fd = open(fname, 'wb')
