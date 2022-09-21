@@ -323,3 +323,4 @@ def save_model(fname, model):
         fd = open(fname, 'wb')
         pickle.dump(model, fd)
         fd.close()
+    else:
