@@ -324,3 +324,4 @@ def save_model(fname, model):
         pickle.dump(model, fd)
         fd.close()
     else:
+        joblib.dump(model, fname)
