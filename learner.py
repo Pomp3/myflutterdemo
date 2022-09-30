@@ -325,3 +325,5 @@ def save_model(fname, model):
         fd.close()
     else:
         joblib.dump(model, fname)
+
+def load_model(fname):
