@@ -327,3 +327,4 @@ def save_model(fname, model):
         joblib.dump(model, fname)
 
 def load_model(fname):
+    if args.model_format == 'pickle':
