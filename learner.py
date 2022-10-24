@@ -329,3 +329,4 @@ def save_model(fname, model):
 def load_model(fname):
     if args.model_format == 'pickle':
         fd = open(fname, 'rb')
+        model = pickle.load(fd)
