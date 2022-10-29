@@ -331,3 +331,4 @@ def load_model(fname):
         fd = open(fname, 'rb')
         model = pickle.load(fd)
         fd.close()
+        return model
