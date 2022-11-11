@@ -333,3 +333,4 @@ def load_model(fname):
         fd.close()
         return model
     else:
+        return joblib.load(fname)
