@@ -334,3 +334,5 @@ def load_model(fname):
         return model
     else:
         return joblib.load(fname)
+
+# TODO: generalize
