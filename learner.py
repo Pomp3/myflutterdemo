@@ -337,3 +337,4 @@ def load_model(fname):
 
 # TODO: generalize
 def show_metrics(y_true, y_pred):
+    print(metrics.classification_report(y_true, y_pred))
