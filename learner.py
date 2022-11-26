@@ -342,3 +342,5 @@ def show_metrics(y_true, y_pred):
 
 def task_fit(args):
     model = get_model(args)
+
+    args.vprint('reading training file {} ...' . format(args.training_file))
