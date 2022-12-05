@@ -347,3 +347,4 @@ def task_fit(args):
     X_train, y_train = read_svmformat_data(args.training_file)
 
     args.vprint('preprocessing training data ...')
+    X_train = preprocess_data(model, X_train)
