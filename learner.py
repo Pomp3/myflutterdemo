@@ -350,3 +350,4 @@ def task_fit(args):
     X_train = preprocess_data(model, X_train)
 
     args.vprint('training model {} ...' . format(model.__class__.__name__))
+    model.fit(X_train, y_train)
