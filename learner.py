@@ -351,3 +351,5 @@ def task_fit(args):
 
     args.vprint('training model {} ...' . format(model.__class__.__name__))
     model.fit(X_train, y_train)
+
+    args.vprint('saving model ...')
