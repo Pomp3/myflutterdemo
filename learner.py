@@ -354,3 +354,5 @@ def task_fit(args):
 
     args.vprint('saving model ...')
     save_model(args.model_output, model)
+
+def task_predict(args):
