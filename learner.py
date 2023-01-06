@@ -356,3 +356,4 @@ def task_fit(args):
     save_model(args.model_output, model)
 
 def task_predict(args):
+    model = load_model(args.model_input)
