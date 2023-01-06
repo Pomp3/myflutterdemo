@@ -357,3 +357,5 @@ def task_fit(args):
 
 def task_predict(args):
     model = load_model(args.model_input)
+
+    args.vprint('reading test file {} ...' . format(args.test_file))
