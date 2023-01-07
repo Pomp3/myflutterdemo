@@ -362,3 +362,4 @@ def task_predict(args):
     X_test, y_test = read_svmformat_data(args.test_file)
 
     args.vprint('preprocessing test data ...')
+    X_test = preprocess_data(model, X_test)
