@@ -360,3 +360,5 @@ def task_predict(args):
 
     args.vprint('reading test file {} ...' . format(args.test_file))
     X_test, y_test = read_svmformat_data(args.test_file)
+
+    args.vprint('preprocessing test data ...')
