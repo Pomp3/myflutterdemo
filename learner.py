@@ -365,3 +365,4 @@ def task_predict(args):
     X_test = preprocess_data(model, X_test)
 
     args.vprint('predicting ...')
+    y_pred = model.predict(X_test)
