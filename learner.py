@@ -363,3 +363,5 @@ def task_predict(args):
 
     args.vprint('preprocessing test data ...')
     X_test = preprocess_data(model, X_test)
+
+    args.vprint('predicting ...')
