@@ -366,3 +366,5 @@ def task_predict(args):
 
     args.vprint('predicting ...')
     y_pred = model.predict(X_test)
+
+    args.vprint('writing predictions ...')
