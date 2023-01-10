@@ -368,3 +368,4 @@ def task_predict(args):
     y_pred = model.predict(X_test)
 
     args.vprint('writing predictions ...')
+    write_labels(args.prediction_file, y_pred)
