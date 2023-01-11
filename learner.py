@@ -372,3 +372,5 @@ def task_predict(args):
 
     if args.show_metrics:
         show_metrics(y_test, y_pred)
+
+def task_fitpredict(args):
