@@ -374,3 +374,4 @@ def task_predict(args):
         show_metrics(y_test, y_pred)
 
 def task_fitpredict(args):
+    model = get_model(args)
