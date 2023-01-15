@@ -375,3 +375,5 @@ def task_predict(args):
 
 def task_fitpredict(args):
     model = get_model(args)
+
+    args.vprint('reading training file {} ...' . format(args.training_file))
