@@ -380,3 +380,4 @@ def task_fitpredict(args):
     X_train, y_train = read_svmformat_data(args.training_file)
 
     args.vprint('reading test file {} ...' . format(args.test_file))
+    X_test, y_test = read_svmformat_data(args.test_file)
