@@ -385,3 +385,5 @@ def task_fitpredict(args):
     args.vprint('preprocessing training and test data ...')
     X_train = preprocess_data(model, X_train)
     X_test = preprocess_data(model, X_test)
+
+    args.vprint('training model {} ...' . format(model.__class__.__name__))
