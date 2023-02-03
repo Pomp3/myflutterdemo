@@ -388,3 +388,6 @@ def task_fitpredict(args):
 
     args.vprint('training model {} ...' . format(model.__class__.__name__))
     model.fit(X_train, y_train)
+
+    args.vprint('predicting ...')
+    y_pred = model.predict(X_test)
