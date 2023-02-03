@@ -387,3 +387,4 @@ def task_fitpredict(args):
     X_test = preprocess_data(model, X_test)
 
     args.vprint('training model {} ...' . format(model.__class__.__name__))
+    model.fit(X_train, y_train)
