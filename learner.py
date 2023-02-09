@@ -394,3 +394,4 @@ def task_fitpredict(args):
 
     if args.model_output:
         args.vprint('saving model ...')
+        save_model(args.model_output, model)
