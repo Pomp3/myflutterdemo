@@ -397,3 +397,4 @@ def task_fitpredict(args):
         save_model(args.model_output, model)
 
     args.vprint('writing predictions ...')
+    write_labels(args.prediction_file, y_pred)
