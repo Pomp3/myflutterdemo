@@ -398,3 +398,5 @@ def task_fitpredict(args):
 
     args.vprint('writing predictions ...')
     write_labels(args.prediction_file, y_pred)
+
+    if args.show_metrics:
