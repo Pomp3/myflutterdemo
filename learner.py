@@ -400,3 +400,4 @@ def task_fitpredict(args):
     write_labels(args.prediction_file, y_pred)
 
     if args.show_metrics:
+        show_metrics(y_test, y_pred)
