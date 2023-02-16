@@ -402,3 +402,5 @@ def task_fitpredict(args):
     if args.show_metrics:
         show_metrics(y_test, y_pred)
 
+
+def main():
