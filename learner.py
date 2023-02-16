@@ -404,3 +404,4 @@ def task_fitpredict(args):
 
 
 def main():
+    global args
