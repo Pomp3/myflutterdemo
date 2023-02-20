@@ -406,3 +406,5 @@ def task_fitpredict(args):
 def main():
     global args
     args = get_args()
+
+    if args.task == 'doc':
