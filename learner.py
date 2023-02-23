@@ -409,3 +409,5 @@ def main():
 
     if args.task == 'doc':
         print(models[args.model].__doc__)
+    else:
+        task_worker = dict(
