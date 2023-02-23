@@ -411,3 +411,4 @@ def main():
         print(models[args.model].__doc__)
     else:
         task_worker = dict(
+                fit = task_fit,
