@@ -408,3 +408,4 @@ def main():
     args = get_args()
 
     if args.task == 'doc':
+        print(models[args.model].__doc__)
