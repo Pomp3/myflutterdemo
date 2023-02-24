@@ -414,3 +414,4 @@ def main():
                 fit = task_fit,
                 predict = task_predict,
                 fitpredict = task_fitpredict)
+        task_worker[args.task](args)
