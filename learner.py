@@ -412,3 +412,5 @@ def main():
     else:
         task_worker = dict(
                 fit = task_fit,
+                predict = task_predict,
+                fitpredict = task_fitpredict)
