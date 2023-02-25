@@ -415,3 +415,5 @@ def main():
                 predict = task_predict,
                 fitpredict = task_fitpredict)
         task_worker[args.task](args)
+
+if __name__ == '__main__':
