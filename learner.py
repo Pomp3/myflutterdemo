@@ -417,3 +417,4 @@ def main():
         task_worker[args.task](args)
 
 if __name__ == '__main__':
+    main()
